@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    /*透明*/
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+}
+
+body {
+    font-size: 0.16rem;
+}
+
+header {
+    padding: 0 0.24rem;
+    height: 0.88rem;
+    box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 999;
+}
+
+.big_City {
+    width: 1.55rem;
+    height: 100%;
+    float: left;
+    font-size: 0.3rem;
+    line-height: 0.88rem;
+    padding: 0 0.06rem;
+    color: #333;
+
+}
+
+.big_City a {
+    width: 1.55rem;
+    height: 100%;
+    display: block;
+    color: #666;
+}
+
+.input {
+    display: block;
+    width: 5.46rem;
+    height: 0.88rem;
+    border: none;
+    outline: none;
+    font-size: 0.28rem;
+    color: #ccc;
+    float: left;
+}
+
+input::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+.cancle {
+    position: absolute;
+    top: 0.28rem;
+    right: 0.24rem;
+    font-size: 0.28rem;
+    line-height: 0.34rem;
+    color: #ccc;
+    width: 0.8rem;
+    text-align: center;
+    border-left: 1px solid #ccc;
+    height: 0.34rem;
+}
+
+main {
+    background: #eeeff0;
+    height: 100%;
+    width: 100%;
+    padding: 0.2rem 0.2rem;
+    margin-top: 0.88rem;
+    overflow: hidden;
+    margin-bottom: 0.75rem;
+    background: url("../img/behind_the_mac_medium.jpg") no-repeat center / 100% 100%;
+}
+
+main ul {
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.1);
+
+}
+
+main ul li {
+    height: 1.25rem;
+    background: #fff url("../img/2018-07-17_141138.png") no-repeat 0.12rem/0.5rem 0.5rem;
+    width: 100%;
+    border-bottom: 1px solid #f3f4f5;
+    padding: 0.26rem 1.2rem 0.2rem 0.76rem;
+    position: relative;
+
+}
+main ul li a{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+}
+main ul li p.top {
+    color: #333;
+    font-size: 0.28rem;
+}
+
+main ul li p.center {
+    color: #ccc;
+    padding: 0.02rem 0;
+    font-size: 0.22rem;
+}
+
+/*main li:first-child{*/
+/*background: #fff;*/
+/*color:#ccc;*/
+/*}*/
+
+/*main ul li.count{*/
+/*line-height: 0.8rem;*/
+/*}*/
+/*main ul li.city {*/
+/*color: #ccc;*/
+/*line-height: 0.8rem;*/
+/*background: #fff;*/
+/*}*/
+main ul li i {
+    position: absolute;
+    right: 0.5rem;
+    color: #999;
+    bottom: 0.35rem;
+}
+
+main ul li .iconfont {
+    font-size: 0.4rem;
+}
+
+footer {
+    width: 100%;
+    height: 0.98rem;
+    background: #fff;
+    box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
